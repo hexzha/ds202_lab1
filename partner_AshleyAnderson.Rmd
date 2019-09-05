@@ -1,0 +1,25 @@
+---
+title: "Lab 1"
+author: "Ashley Anderson"
+date: "9/5/2019"
+output: html_document
+---
+
+####Name:
+
+Ashley Anderson. My github username is ashleyna7. 
+
+
+####What did the Owner do in the most recent commit? What is the commit ID?
+
+In the most recent commit, Sam created his R markdown file and knitted it. The commit ID is 70e6ba42e5aa73e105afa2b2ab295766316ccb2a. 
+
+
+####Knit the Owner's `owner_YourName.Rmd`. Are you able to do so without error? If you cannot, what errors did you encounter?
+
+Knitting was a success. 
+
+
+####Also include one tip for making Git/GitHub easier, or an error/difficulty you encountered.
+
+I encountered a difficulty when trying to set my working direction when there is a space in the folder name. I learned using "tab" eliminates this problem. 
