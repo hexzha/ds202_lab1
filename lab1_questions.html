@@ -416,9 +416,7 @@ na_percentage &lt;- function(vec) {
 }
 na_percentage(X)</code></pre>
 <pre><code>## [1] 0.3333333</code></pre>
-<pre class="r"><code>#-------------------------------------------------------
-
-X / sum(X, na.rm = TRUE)</code></pre>
+<pre class="r"><code>X / sum(X, na.rm = TRUE)</code></pre>
 <pre><code>##  [1] 0.16040956 0.11604096 0.11262799 0.22184300 0.12627986         NA
 ##  [7] 0.14675768         NA 0.03754266         NA 0.07849829         NA</code></pre>
 <pre class="r"><code># Divide each element of vector x with the total sum all all the elements (excluding NA). Percentage of each element in the vector. Takes 1 vector as arguement. 

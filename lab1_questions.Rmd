@@ -43,8 +43,6 @@ na_percentage <- function(vec) {
 }
 na_percentage(X)
 
-#-------------------------------------------------------
-
 X / sum(X, na.rm = TRUE)
 
 # Divide each element of vector x with the total sum all all the elements (excluding NA). Percentage of each element in the vector. Takes 1 vector as arguement. 
