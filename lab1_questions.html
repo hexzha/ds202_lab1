@@ -372,7 +372,7 @@ summary {
 <ol style="list-style-type: decimal">
 <li><p>Git is the tools that help us with version controlling. Git is what allows us to add, commit, push, pull, etc. Github is the online remote service that holds our projects managed by git. We can use git to push out code to Github.</p></li>
 <li><p>I mean they could be used independently. It just wouldn’t be as effective. You could just do everything by using the buttons on GitHub and transporting your code may be difficult, but it’s nice to have git too to go quicker. You can’t really share projects with other people easily if you just use Git without GitHub. You could still manage your own code with git. Github helps with saving code remotely. We can used them together so that code can be shared and saved remotely. We can continue to work as normal and use Git to send our code to GitHub and have it manage our project.</p></li>
-<li><p>A repository in Git is like a regular folder that has git setup to monitor.</p>
+<li>A repository in Git is like a regular folder that has git setup to monitor.
 <ol style="list-style-type: decimal">
 <li>mkdir folder_name</li>
 <li>cd folder_name</li>
@@ -387,7 +387,6 @@ X &lt;- c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
 sum(is.na(X))</code></pre>
 <pre><code>## [1] 4</code></pre>
 <pre class="r"><code># 2. Run the following code:
-
 age = c(25,30,45,60,12,41)
 smoker = c(&#39;T&#39;,&#39;F&#39;,&#39;T&#39;,&#39;F&#39;,&#39;F&#39;,&#39;F&#39;)
 weight = c(120,137,0,168,91,142)
@@ -405,11 +404,9 @@ example_data   </code></pre>
 ## 5  12      F     91
 ## 6  41      F    142</code></pre>
 <pre class="r"><code># 3. In the following I have two code snippets. Turn these code snippets into functions. Think about what each function does and what you would name it. How many arguments does it need?
-
 mean(is.na(X))</code></pre>
 <pre><code>## [1] 0.3333333</code></pre>
 <pre class="r"><code># Percentage of vector x that is NA. Takes 1 vector as argument.
-
 na_percentage &lt;- function(vec) {
   x &lt;- sum(is.na(vec))
   return(x / length(vec))
@@ -420,7 +417,6 @@ na_percentage(X)</code></pre>
 <pre><code>##  [1] 0.16040956 0.11604096 0.11262799 0.22184300 0.12627986         NA
 ##  [7] 0.14675768         NA 0.03754266         NA 0.07849829         NA</code></pre>
 <pre class="r"><code># Divide each element of vector x with the total sum all all the elements (excluding NA). Percentage of each element in the vector. Takes 1 vector as arguement. 
-
 count_to_percentage &lt;- function(vec) {
   vec2 &lt;- vec[-which(is.na(vec))]
   total &lt;- sum(vec2)
