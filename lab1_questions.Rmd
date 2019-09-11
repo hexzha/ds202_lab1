@@ -50,8 +50,11 @@ count_to_percentage(X)
 
 # 4. Write a function named both_na(). This function take two vectors of the same length and returns the number of positions that have an NA value in both vectors.
 
+a <- c(NA, NA, 1, 2, 3, NA, NA)
+b <- c(NA,  1, 2, 3, NA, NA, NA)
+
 both_na <- function(vec1, vec2) {
-  return(sum(is.na(vec1)) + sum(is.na(vec2)))
+  return(sum(is.na(vec1) & is.na(vec2)))
 }
-both_na(X, X)
+both_na(a, b)
 ```
